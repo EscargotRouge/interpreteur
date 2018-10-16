@@ -25,6 +25,7 @@
       <itemPath>Symbole.cpp</itemPath>
       <itemPath>SymboleValue.cpp</itemPath>
       <itemPath>TableSymboles.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -38,7 +39,6 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>.dep.inc</itemPath>
-    <itemPath>main.cpp</itemPath>
     <itemPath>motsCles.txt</itemPath>
     <itemPath>programme.txt</itemPath>
     <itemPath>tp05.pdf</itemPath>
