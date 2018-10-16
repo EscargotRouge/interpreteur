@@ -15,7 +15,7 @@ SymboleValue * TableSymboles::chercheAjoute(const Symbole & s)
   if (i == m_table.end() || (**i).getChaine() != s.getChaine()) // si pas trouvé...
     i = m_table.insert(i, new SymboleValue(s));
   return *i;
-  //cc camille
+  //cc camille dfefg
 }
 
 ostream & operator<<(ostream & cout, const TableSymboles & ts)
