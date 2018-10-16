@@ -38,7 +38,6 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>.dep.inc</itemPath>
-    <itemPath>main.cpp</itemPath>
     <itemPath>motsCles.txt</itemPath>
     <itemPath>programme.txt</itemPath>
     <itemPath>tp05.pdf</itemPath>
@@ -80,8 +79,6 @@
       <item path="TableSymboles.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="TableSymboles.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="motsCles.txt" ex="false" tool="3" flavor2="0">
       </item>
@@ -137,8 +134,6 @@
       <item path="TableSymboles.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="TableSymboles.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="motsCles.txt" ex="false" tool="3" flavor2="0">
       </item>
