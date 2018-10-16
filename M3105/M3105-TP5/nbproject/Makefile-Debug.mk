@@ -35,13 +35,13 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/_ext/d2aa2781/main.o \
 	${OBJECTDIR}/ArbreAbstrait.o \
 	${OBJECTDIR}/Interpreteur.o \
 	${OBJECTDIR}/Lecteur.o \
 	${OBJECTDIR}/Symbole.o \
 	${OBJECTDIR}/SymboleValue.o \
-	${OBJECTDIR}/TableSymboles.o \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/TableSymboles.o
 
 
 # C Compiler Flags
@@ -67,6 +67,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/m3105-tp5: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/m3105-tp5 ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/_ext/d2aa2781/main.o: ../test/main.cpp
+	${MKDIR} -p ${OBJECTDIR}/_ext/d2aa2781
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/d2aa2781/main.o ../test/main.cpp
 
 ${OBJECTDIR}/ArbreAbstrait.o: ArbreAbstrait.cpp
 	${MKDIR} -p ${OBJECTDIR}
@@ -97,11 +102,6 @@ ${OBJECTDIR}/TableSymboles.o: TableSymboles.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/TableSymboles.o TableSymboles.cpp
-
-${OBJECTDIR}/main.o: main.cpp
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
 # Subprojects
 .build-subprojects:

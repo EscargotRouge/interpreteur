@@ -3,7 +3,7 @@
 procedure principale()
   i = 12+3;
   si (i>14)
-    j=1;
+    j=;
   finsi
 finproc
 # Commentaire Final
