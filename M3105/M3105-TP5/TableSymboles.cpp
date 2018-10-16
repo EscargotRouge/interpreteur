@@ -14,7 +14,7 @@ SymboleValue * TableSymboles::chercheAjoute(const Symbole & s)
   while (i < m_table.end() && (**i).getChaine() < s.getChaine()) i++;
   if (i == m_table.end() || (**i).getChaine() != s.getChaine()) // si pas trouvé...
     i = m_table.insert(i, new SymboleValue(s));
-  return *i; //TEST
+  return *i; //TEST cc
 }
 
 ostream & operator<<(ostream & cout, const TableSymboles & ts)
